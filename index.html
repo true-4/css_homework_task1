@@ -3,25 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="style/index.css">
   <title>Document</title>
 </head>
 <body>
-  <h1 class="title">Lesson 1: Homework</h1>
-  <p class="initial-text">This is a sample text to demonstrate various selectors and cascading styles.</p>
-  <section class="container">
-    <div> <!--(по заданию) для демонстрации изменений по тегам, классам, и id-->
-      <p class="font">Block with default box-sizing</p>
+  <div class="container">
+    <h1 class="title">Lesson 1: Homework</h1>
+    <p class="initial-text">This is a sample text to demonstrate various selectors and cascading styles.</p>
+    <div class="block">
+      <p class="default-box-sizing">Block with default box-sizing</p>
+      <p class="box-sizing-border-box">Block with box-sizing: border-box</p>
+      <p class="box-sizing-content-box">Block with box-sizing: content-box</p>
     </div>
-    <div class="middle-block"><!--(по заданию) для демонстрации изменений по тегам, классам, и id-->
-      <p class="font">Block with box-sizing: border-box</p>
-    </div>
-    <div class="middle-block" id="bottom-block"><!--(по заданию) для демонстрации изменений по тегам, классам, и id-->
-      <p class="font">Block with box-sizing: content-box</p>
-    </div>
-  </section><br>
-  <div class="text-bottom">
-    <p class="font">Text inside a block with cascading styles.</p>
+    <p class="bottom-text">Text inside a block with cascading styles.</p>
   </div>
 </body>
 </html>
