@@ -1,0 +1,74 @@
+@import './variables.css';
+
+*,
+*::after,
+*:before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  background-color: var(--bg-main);
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.title {
+  text-align: center;
+  padding: 18px 0 10px;
+  color: var(--main);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.initial-text {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+.block {
+  max-width: 244px;
+}
+
+.default-box-sizing {
+  background-color: var(--bg-lblue);
+  border: 2px solid var(--black);
+  padding: 28px 0 28px 10px;
+  margin: 0 10px 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.box-sizing-border-box {
+  box-sizing: border-box;
+  max-width: 200px;
+  background-color: var(--bg-blue);
+  border: 2px solid var(--black);
+  padding: 28px 0 28px 10px;
+  margin: 0 10px 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.box-sizing-content-box {
+  box-sizing: content-box;
+  background-color: var(--bg-dblue);
+  border: 2px solid var(--black);
+  padding: 28px 0 28px 10px;
+  margin: 0 10px 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.bottom-text {
+  background-color: var(--bg-secondary);
+  color: var(--red);
+  padding: 37.5px 0 37.5px 20px;
+}
